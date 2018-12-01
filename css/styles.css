@@ -2,17 +2,19 @@
   padding-top: 90px;
   min-height: 600px;
   margin-bottom: 0;
-  background-image: url('images/image.jpg');
+  background-image:url('images/image.jpg');
   background-size: cover;
   background-attachment: fixed;
 }
 
 
 .jumbotron h1 {
-  font-family: 'Vast Shadow', cursive;
+  font-family: 'Crimson Text';
   color: white;
   margin-bottom: 1em;
 }
+
+body{font-family:'Quicksand';}
 
 
 blockquote {
@@ -20,19 +22,25 @@ blockquote {
 }
 
 #lights {
-  background-color: rgba(205,92,92);
+  background-color: rgba(0,0,70);
   color: #ddd;
   padding-bottom: 40px;
 }
 
 #todo {
-  background-color: rgba(32, 35, 41, 0.9);
+  background-color: rgba(0,0,70);
   color: #ddd;
   padding-bottom: 40px;
 }
 
 #eat {
-  background-color: rgba(32, 35, 41, 0.9);
+  background-color: rgba(0,0,70);
+  color: #ddd;
+  padding-bottom: 40px;
+}
+
+#aboutus {
+  background-color: rgba(0,0,70);
   color: #ddd;
   padding-bottom: 40px;
 }
@@ -51,7 +59,7 @@ h2 {
 }
 
 .navbar-inverse {
-  background-color: rgba(25, 25, 112);
+  background-color: rgba(0,0,76);
 }
 
 .form-inline input[name='email'] {
