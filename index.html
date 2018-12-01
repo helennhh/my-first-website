@@ -7,6 +7,7 @@
   <!--This is my link to my css page-->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 </head>
 <body>
@@ -37,21 +38,19 @@
 
 
 
-  <div class='jumbotron'>
-    <div class='container'>
-      <div class='row'>
-        <div class='col-sm-12'>
+<div class="slide-container">
+    <img class="mySlides" src="images/carousel1.jpg" width="100%" height="800">
+    <img class="mySlides" src="images/carousel2.jpg" width="100%">
+    <img class="mySlides" src="images/carousel3.jpg" width="100%">
 
-          <h1><center>Step into Christmas</center></h1>
-          <h2><center>Explore London this Christmas</center></h2>
+    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
 
-        </div>
-
-      </div>
-
-
+    <div class="slide-centered">
+        <h1>Step into Christmas</h1>
+        <h2>Explore London this Christmas</h2>
     </div>
-  </div>
+</div>
   <div id="lights" class="text-center">
   <div class="container">
   <h2><small>Christmas lights</small><br />Where to get lit in London</h2>
@@ -90,7 +89,7 @@
 
     <div class="row">
       <div class='col-sm-4 '>
-      <img src='images/person.jpg' class="img-circle  center-block">
+      <img src='images/winterwonderland.png' class="img-circle  center-block">
       <blockquote>
   <p><strong>Winter Wonderland</strong>, the holy grail of Christmas in London. From thrilling fairground rides and ice skating to charming Christmas markets and family shows. Winter Wonderland has something for the whole family this festive season!</p>
   <small>Opens 23 November until the 6th January. Open everyday 10am-10pm. Nearest tubes: Marble Arch and Hyde Park Corner </small>
@@ -180,5 +179,24 @@
 
   <script src="https://code.jquery.com/jquery.js"></script>
   <script src="JS/bootstrap.min.js"> </script>
+  <script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
 </body>
 </html>
