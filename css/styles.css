@@ -40,19 +40,19 @@ blockquote {
 }
 
 #lights {
-  background-color: rgba(0,0,70);
+  background-color: rgba(0,0,70,0.85);
   color: #ddd;
   padding-bottom: 40px;
 }
 
 #todo {
-  background-color: rgba(0,0,70);
+  background-color: rgba(0,0,70,0.8);
   color: #ddd;
   padding-bottom: 40px;
 }
 
 #eat {
-  background-color: rgba(0,0,70);
+  background-color: rgba(0,0,70,0.85);
   color: #ddd;
   padding-bottom: 40px;
 }
