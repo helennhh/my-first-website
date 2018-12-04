@@ -42,25 +42,30 @@ blockquote {
 #lights {
   background-color: rgba(0,0,70,0.85);
   color: #ddd;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 #todo {
   background-color: rgba(0,0,70,0.8);
   color: #ddd;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+
 }
 
 #eat {
   background-color: rgba(0,0,70,0.85);
   color: #ddd;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 #aboutus {
   background-color: rgba(0,0,70);
   color: #ddd;
-  padding-bottom: 40px;
+  padding-bottom: 50px;
+  padding-top: 30px;
 }
 .jumbotron .form-group {
   line-height: 1em;
